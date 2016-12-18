@@ -8,7 +8,8 @@ const api = require('./routes/api');
 const app = express();
 
 app.use(bodyParser.json());
-app.use(bodyParser.urlenconded({ extended: false }));
+app.use(bodyParser.urlencoded({ extended: false }));
+
 app.use('/', api);
 
 const port = process.env.PORT || '3000';
