@@ -12,7 +12,7 @@ export class AppComponent implements OnInit{
 
   API = 'http://localhost:3000';
 
-  people = any[] =[];
+  people: any[] =[];
 
   constructor(private http: Http) {}
 
