@@ -7,7 +7,7 @@ services:
             - "4200:4200"
 
     express:
-        build: expres-server
+        build: express-server
         ports:
             - "3000:3000"
 
